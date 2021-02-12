@@ -38,7 +38,6 @@ void loop()
   } else {
     // Desliga o LED
     digitalWrite(pin_LED, LOW);
-    // comentário útil de uma só linha aqui
   }
   // Aguarda  10 milissegundos
   delay(10); 
