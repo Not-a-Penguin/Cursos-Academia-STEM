@@ -9,14 +9,14 @@
 
 //Declaração de Variáveis
   //Motor A
-    #define ENA 2 //Define o pino enable do CI na porta x
-    #define motorA1 3 //Define o pino de entrada 1 do CI na porta y
-    #define motorA2 4 //Define o pino de entrada 2 do CI na porta z
+    #define ENA 11 //Define o pino enable do CI na porta x
+    #define motorA1 8 //Define o pino de entrada 1 do CI na porta y
+    #define motorA2 7 //Define o pino de entrada 2 do CI na porta z
 
   //Motor B
-    #define ENB 5 //Define o pino enable do CI na porta x
-    #define motorB1 6 //Define o pino de entrada 1 do CI na porta y
-    #define motorB2 7 //Define o pino de entrada 2 do CI na porta z
+    #define ENB 10 //Define o pino enable do CI na porta x
+    #define motorB1 5 //Define o pino de entrada 1 do CI na porta y
+    #define motorB2 4 //Define o pino de entrada 2 do CI na porta z
     
   //Potenciômetro
     #define pot A0 //Define a porta analógica A0 como pino de sinal do potenciômetro
