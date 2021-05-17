@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" media="screen">
+  <title>Controle Carro</title>
+</head>
+<body>
+  <div id="titulo">
+    <h1>Controle do Carrinho</h1>
+    <p>Utilize as setas do seu teclado para movimentar o carro</p>
+  </div>
+
+  <button id="left">Esquerda</button>
+  <button id="up">Frente</button>
+  <button id="down">Trás</button>
+  <button id="right">Direita</button>
+
+  <script>
+    document.addEventListener("keydown", function(event){
+      
+      var tecla = event.keyCode;
+      console.log(tecla)
+      
+      if(tecla === 37){
+        const btn_left = document.querySelector("#left");
+        btn_left.click();
+        alert("esquerda")
+      }
+
+      else if(tecla === 39){
+        const btn_right = document.querySelector("#right");
+        btn_right.click();
+        alert("direita")
+      }
+
+      else if(tecla === 38){
+        const btn_up = document.querySelector("#up");
+        btn_up.click();
+        alert("frente")
+      }
+      else if(tecla === 40){
+        const btn_down = document.querySelector("#down");
+        btn_down.click();
+        alert("trás")
+      }
+
+    });
+  </script>
+
+</body>
+</html>
